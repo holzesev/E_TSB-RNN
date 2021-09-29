@@ -9,14 +9,14 @@ In addition, our approach uses simpler machine learning algorithms that are fast
 ## Data Preparation
 First we have to prepare the data so that we can produce a trainand testset, which in turn can be fed into a neural network to detect errors in the dataset and measure the results.
 <p align='center'>
-  <img src='https://github.com/holzesev/E_TSB/blob/main/Images/datapreparation.PNG' width="100%"/>
+  <img src='https://github.com/holzesev/E_TSB-RNN/blob/main/Images/datapreparation.PNG' width="100%"/>
 </p>
 
 ## Algorithms for Trainset Selection (DiverSet)
 The intuition is to select tuples with values that have not been seen previously. In other words, the newly select tuples increase the information content of our trainset
 the most. In case two candidate tuples contain the same number of unseen attribute values, the tuple with the highest number of empty attribute values is chosen. Our hypothesis is that empty values give us more information for the system to learn – because if there are empty values in other attributes, we can learn if they should be empty or not. In case all candidate tuples have the same number of unseen attributes and empty attribute values, the tuples are choosing randomly.
 <p align='center'>
-  <img src='https://github.com/holzesev/E_TSB/blob/main/Images/Algo3vis.PNG' width="100%"/>
+  <img src='https://github.com/holzesev/E_TSB-RNN/blob/main/Images/Algo3vis.PNG' width="100%"/>
 </p>
 
 ## Neural Network Architectures
@@ -26,7 +26,7 @@ RNN (ETSB-RNN) receives input from three datasets (value_x, i.e. the actual data
 * TSB-RNN: Two-Stacked Bidirectional RNN
 * ETSB-RNN: Enriched Two-Stacked Bidirectional RNN
 <p align='center'>
-  <img src='https://github.com/holzesev/E_TSB/blob/main/Images/model_0_1.PNG' width="70%"/>
+  <img src='https://github.com/holzesev/E_TSB-RNN/blob/main/Images/model_0_1.PNG' width="70%"/>
 </p>
 
 ## Results (F1-Score)
