@@ -1,0 +1,2 @@
+model_checkpoint_path: "checkpoint_p11_m2"
+all_model_checkpoint_paths: "checkpoint_p11_m2"
