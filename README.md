@@ -9,7 +9,7 @@ In addition, our approach uses simpler machine learning algorithms that are fast
 ## Data Preparation
 First we have to prepare the data so that we can produce a trainand testset, which in turn can be fed into a neural network to detect errors in the dataset and measure the results.
 <p align='center'>
-  <img src='https://github.com/holzesev/E_TSB-RNN/blob/main/Images/datapreparation.PNG' width="100%"/>
+  <img src='https://github.com/holzesev/E_TSB-RNN/blob/main/images/datapreparation.PNG' width="100%"/>
 </p>
 
 ## Algorithms for Trainset Selection (DiverSet)
