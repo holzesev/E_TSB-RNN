@@ -1,5 +1,4 @@
 # Detecting Errors in Databases with Bidirectional Recurrent Neural Networks
-Code for SDS2021 accepted [paper](https://arxiv.org/pdf/1905.08205.pdf).
 
 ## Abstract
 In recent years we have seen an exponential growth of data. However, not only does the volume of data grow but often also the numbers of erroneous data values. Detecting and cleaning these errors is an important data management problem to enable high quality data science pipelines. To reduce the human effort and to achieve good results in detecting errors, it is important to label the tuples which give the best impact for the error detection system.
@@ -37,15 +36,3 @@ RNN (ETSB-RNN) receives input from three datasets (value_x, i.e. the actual data
 | Rotom+SSL | 0.86 | 0.17 | n/a | n/a |
 | TSB-RNN   | 0.89 | 0.06 | 0.85 | 0.08 |
 | ETSB-RNN  | **0.91** | 0.05 | **0.88** | 0.06 |
-
-## Citation
-
-```
-@inproceedings{GuoIRNet2019,
-  author={Jiaqi Guo and Zecheng Zhan and Yan Gao and Yan Xiao and Jian-Guang Lou and Ting Liu and Dongmei Zhang},
-  title={Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation},
-  booktitle={Proceeding of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)},
-  year={2019},
-  organization={Association for Computational Linguistics}
-}
-```
