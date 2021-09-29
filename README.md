@@ -22,8 +22,8 @@ the most. In case two candidate tuples contain the same number of unseen attribu
 The main difference between the two architecture models is that the first model Two-Stacked Bidirectional RNN (TSB-RNN) receives input from one dataset (value_x, i.e. the actual data values), while the second model Enriched Two-Stacked Bidirectional
 RNN (ETSB-RNN) receives input from three datasets (value_x, i.e. the actual data values, length_norm, i.e. the standardized length of value_x, as well as metadata information about the attributes). Therefore, the second model is more complex and needs more time for training
 
-* TSB-RNN: Two-Stacked Bidirectional RNN
-* ETSB-RNN: Enriched Two-Stacked Bidirectional RNN
+* TSB-RNN (M0): Two-Stacked Bidirectional RNN
+* ETSB-RNN (M1): Enriched Two-Stacked Bidirectional RNN
 <p align='center'>
   <img src='https://github.com/holzesev/E_TSB-RNN/blob/main/images/model_0_1.PNG' width="70%"/>
 </p>
@@ -36,3 +36,6 @@ RNN (ETSB-RNN) receives input from three datasets (value_x, i.e. the actual data
 | Rotom+SSL | 0.86 | 0.17 | n/a | n/a |
 | TSB-RNN   | 0.89 | 0.06 | 0.85 | 0.08 |
 | ETSB-RNN  | **0.91** | 0.05 | **0.88** | 0.06 |
+
+## New Version (M2 + M3)
+We implementet two new version of our approach. The different is the input, which has the whole record (tuples), and the output which gives us for each attribut one. Therfore we get multiple values for the output. We did not describe in the paper, so the code is only avaible in the jupyter notbook. For the dataset flights we got good results with the algorithm from raha (RahaSet).
