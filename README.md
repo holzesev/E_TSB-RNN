@@ -1,5 +1,7 @@
 # Detecting Errors in Databases with Bidirectional Recurrent Neural Networks
 
+We used Phyton 3.6.7
+
 ## Abstract
 In recent years we have seen an exponential growth of data. However, not only does the volume of data grow but often also the numbers of erroneous data values. Detecting and cleaning these errors is an important data management problem to enable high quality data science pipelines. To reduce the human effort and to achieve good results in detecting errors, it is important to label the tuples which give the best impact for the error detection system.
 In this paper we introduce an architecture based on bidirectional recurrent neural networks to detect errors in databases. The experimental results with 6 different datasets demonstrate that our approach shows similar performance to state-of-the-art error detection system per dataset. When considering the average of the F1-scores over all datasets, our approach called Enriched Two-Stacked Bidirectional (ETSB-RNN) outperforms state-of-the-art systems. Moreover, our approach achieves a lower standard deviation than existing work, which shows that our system is more robust. Finally, our approach does not require additional data augmentation techniques to achieve high F1-scores. The system does not need any configuration or previous analysis of the data.
