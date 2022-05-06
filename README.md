@@ -1,6 +1,8 @@
 # Detecting Errors in Databases with Bidirectional Recurrent Neural Networks
 
-We used Phyton 3.6.7
+Current commits use version 3.9.12.
+
+Version used in the paper is Phyton 3.6.7, see https://github.com/holzesev/E_TSB-RNN/releases/tag/submitted_paper_version.
 
 ## Abstract
 In recent years we have seen an exponential growth of data. However, not only does the volume of data grow but often also the numbers of erroneous data values. Detecting and cleaning these errors is an important data management problem to enable high quality data science pipelines. To reduce the human effort and to achieve good results in detecting errors, it is important to label the tuples which give the best impact for the error detection system.
