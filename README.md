@@ -1,7 +1,6 @@
 # Detecting Errors in Databases with Bidirectional Recurrent Neural Networks
 
-Published in Proceedings of the 25th International Conference on Extending Database Technology (EDBT)
-29th March-1st April, 2022
+Published in Proceedings of the 25th International Conference on Extending Database Technology (EDBT), 29th March-1st April, 2022, see
 https://openproceedings.org/2022/conf/edbt/paper-40.pdf
 
 Current commits use version 3.9.12.
