@@ -1,5 +1,9 @@
 # Detecting Errors in Databases with Bidirectional Recurrent Neural Networks
 
+Published in Proceedings of the 25th International Conference on Extending Database Technology (EDBT)
+29th March-1st April, 2022, ISBN 978-3-89318-085-7 on OpenProceedings.org.
+https://openproceedings.org/2022/conf/edbt/paper-40.pdf
+
 Current commits use version 3.9.12.
 
 Version used in the paper is Phyton 3.6.7, see https://github.com/holzesev/E_TSB-RNN/releases/tag/submitted_paper_version.
